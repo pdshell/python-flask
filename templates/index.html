@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}首页{% endblock %}
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/index.css') }}">
+{% block main %}
+    <ul>
+        <li>
+            <div class="avatar-group">
+                <img src="https://s2.coinmarketcap.com/static/img/coins/16x16/4.png" class="avatar">
+            </div>
+            <div class="question-group">
+                <p class="question-title">asdsadasd saasdsadsad</p>
+                <p class="question-content">asddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</p>
+                <div class="question-info">
+                    <span class="question-author">老二</span>
+                    <span class="question-time">2018-12-24 15:25:43</span>
+                </div>
+            </div>
+        </li>
+    </ul>
+{% endblock %}
