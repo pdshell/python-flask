@@ -52,7 +52,7 @@ def regist():
                 # 跳转页面
                 return redirect(url_for('login'))
 
-
+#退出
 @app.route('/logout/')
 def logout():
     # session.pop('user_id')
@@ -60,7 +60,7 @@ def logout():
     session.clear()
     return redirect(url_for('login'))
 
-
+#登入
 @app.route('/question/', methods=['GET', 'POST'])
 def question():
     if request.method == 'GET':
