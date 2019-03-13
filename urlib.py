@@ -13,6 +13,8 @@ req = urllib.request.Request(url, headers={
 response = urllib.request.urlopen(req)
 content = response.read()
 
+
+
 # print(content)
 
 # pageFile = open('pageCode'.replace('/', '_') + ".html", 'wb')  # 以写的方式打开pageCode.txt
