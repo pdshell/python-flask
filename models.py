@@ -7,4 +7,4 @@ class User(db.Model):
     telephone = db.Column(db.String(11), nullable=False)
     username = db.Column(db.String(50), nullable=False)
     password = db.Column(db.String(100), nullable=True)
-#aaaaa
+# aaaaaAAAAAAAA
